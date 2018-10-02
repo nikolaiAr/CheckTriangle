@@ -40,7 +40,7 @@ namespace LibCheckTriangle
             }
             else
             {
-                sideTr = new double[3];
+                sideTr = new double[1];
             }
             return sideTr;
         }
