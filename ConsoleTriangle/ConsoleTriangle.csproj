@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibCheckTriangle\LibCheckTriangle.csproj">
+      <Project>{03f5fe3e-2ab5-440f-b887-df06c1cfd23c}</Project>
+      <Name>LibCheckTriangle</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
